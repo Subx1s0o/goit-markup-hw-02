@@ -1,94 +1,123 @@
 body {
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: 'Roboto',sans-serif;
     color: #434455 ;
     line-height: 24px;
+    background-color: #FFFFFF;
 }
 
 .logospan {
-    color:#4D5AE5;
+    color: #2e2f42;
+}
+
+.logospan-footer {
+    color: #f4f4fd;
 }
 
 .logotype {
     font-family: 'Raleway',sans-serif;
-    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.nav-li {
+    font-weight: 500;
+    color: #2E2F42;
+    letter-spacing: 0.02em; 
+}
+
+.nav-li:hover, .nav-li:focus{
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
 }
 
 a {
     text-decoration: none;
-    font-style: normal;
-    color: #2E2F42;
-    font-weight: 500;
 }
 
 li {
     list-style-type: none;
 }
 
-.teamlist {
-    width: 264px;
-    box-shadow: 1px 1px 4px #434455;
-}
-
-.portfolio {
-    width: 360px;
-    box-shadow: 1px 1px 4px #434455;
-}
-
-button {
+.btn {
+    font-family: "Roboto", sans-serif;
     color: white;
     cursor: pointer;
     font-weight: 500;
     background-color: #4D5AE5;
-    border-radius: 4px;
     border: none;
-    width: 169px;
-    height: 56px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-button:hover {
+.btn:hover, .btn:focus {
     background-color: #404BBF;
 }
 
-h2 {
+.second-h {
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-h3 {
+.third-h {
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42 ;
+    letter-spacing: 0.02em;
 }
 
-.title {
+.paragraph {
+    letter-spacing: 0.02em;
+}
+
+.paragraph-footer {
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.section-title {
     background-color: #2E2F42;
 }
 
-h1 {
+.title {
     color: white;
     font-size: 56px;
-    line-height: 60px;
-    
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
-a:hover,a:focus{
-    color: #4D5AE5;
-}
 
 .team {
     background-color: #F4F4FD;
 }
 
-footer {
+.teamlist {
+    background-color: #FFFFFF;
+}
+
+.footer {
     background-color: #2E2F42;
     color: white;
 }
-footer a {
-    color: white;
-}
+
 
 .contacts {
-    color: #8E8F99;
+    color: #434455;
+    letter-spacing: 0.02em;
 }
 
+.contacts:hover, .contacts:focus {
+    color: #404bbf;
+}
